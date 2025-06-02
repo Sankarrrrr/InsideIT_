@@ -1,0 +1,57 @@
+.home-container {
+  min-height: calc(100vh - 64px);
+  background-color: #f9fafb;
+  padding: 2rem 1rem;
+  overflow-y: auto;
+  margin-top: 64px;
+}
+
+.content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.header-container {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #111827;
+  margin: 0;
+}
+
+.add-course-button {
+  padding: 0.375rem 0.75rem;
+  font-size: 0.875rem;
+  border-radius: 0.375rem;
+  background-color: #f3f4f6;
+  color: #374151;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.add-course-button:hover {
+  background-color: #e5e7eb;
+}
+
+.courses-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.empty-message {
+  text-align: center;
+  color: #6b7280;
+  font-size: 0.875rem;
+} 
